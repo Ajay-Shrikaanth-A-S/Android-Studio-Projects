@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             ALCTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     DisplayDetails(
-                        name = "Yuvan Raj RA2211004020188",
+                        name = "Ajay Shrikaanth A S RA2211004020110",
                         subject = "Mobile application development",
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -73,6 +73,6 @@ fun DisplayDetails(name: String, subject: String, modifier: Modifier = Modifier)
 @Composable
 fun DetailsPreview() {
     ALCTheme {
-        DisplayDetails("Yuvan Raj RA2211004020188", "Mobile application development")
+        DisplayDetails("Ajay Shrikaanth A S RA2211004020110", "Mobile application development")
     }
 }
